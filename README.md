@@ -6,46 +6,46 @@
 
 ### Slices
 
-1.  Culture
+1.  Farm
 
 -   DOM Elements
-    -   cultureSelect
-    -   cultureImg
-    -   cultureChangeCounter
+    -   farmSelect
+    -   farmImg
+    -   farmChangeCounter
 -   State
-    -   cultureCounter
+    -   farmCounter
 -   Events
-    -   cultureSelect.addEventListener('change')
+    -   farmSelect.addEventListener('change')
 
-2.  Cuisine
+2.  Profession
 
 -   DOM Elements
-    -   cuisineSelect
-    -   cuisineImg
-    -   cuisineChangeCounter
+    -   professionSelect
+    -   professionImg
+    -   professionChangeCounter
 -   State
-    -   cuisineCounter
+    -   professionCounter
 -   Events
-    -   cuisineSelect.addEventListener('change')
+    -   professionSelect.addEventListener('change')
 
-3.  Capitol
+3.  Romance
 
 -   DOM Elements
-    -   capitolSelect
-    -   capitolImg
-    -   capitolChangeCounter
+    -   romanceSelect
+    -   romanceImg
+    -   romanceChangeCounter
 -   State
-    -   capitolCounter
+    -   romanceCounter
 -   Events
-    -   capitolSelect.addEventListener('change')
+    -   romanceSelect.addEventListener('change')
 
-4.  Motto(s)
+4.  Favorite Thing
 
 -   DOM Elements
-    -   mottoInput
-    -   createButton
-    -   mottosList
+    -   favoriteInput
+    -   okButton
+    -   favoriteList
 -   State
-    -   mottos
+    -   favorites
 -   Events
-    -   createButton.addEventListener('click')
+    -   okButton.addEventListener('click')
