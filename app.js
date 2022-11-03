@@ -1,5 +1,3 @@
-/* Imports */
-
 /* Get DOM Elements */
 
 /* State */
