@@ -10,7 +10,7 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
-    cursor: url('/assets/stardew-cursor.png'), auto;
+    cursor: url(/assets/stardew-cursor.png), auto;
 }
 
 header {
@@ -51,6 +51,7 @@ img {
 
 label {
     background-color: #deb886;
+    cursor: url(/assets/stardew-cursor.png), auto;
 }
 
 #favorite-list {
