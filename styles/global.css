@@ -34,6 +34,8 @@ header .logo {
 main {
     padding: 20px;
     background-image: url('/assets/stardew-background.png');
+    justify-items: center;
+    text-align: center;
 }
 
 img {
@@ -43,17 +45,48 @@ img {
 #categories {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+#categories div {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    margin: 5px 15px;
 }
 
 .category-label {
-    margin-left: 20px;
+    text-align: center;
+    width: 180px;
+    margin-bottom: 10px;
 }
 
 label {
     background-color: #deb886;
     cursor: url(/assets/stardew-cursor.png), auto;
+    height: 30px;
+    padding: 5px;
 }
 
 #favorite-list {
     background-color: rgba(177, 186, 197, 0.384);
+    max-width: 50%;
+    position: relative;
+    left: 25%;
+    right: 25%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#favorite-section {
+    text-align: center;
+    justify-items: center;
+}
+
+#favorite-label {
+    display: inline-block;
 }
