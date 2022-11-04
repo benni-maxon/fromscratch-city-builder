@@ -1,5 +1,5 @@
 /* Get DOM Elements */
-const farmSelect = document.getElementId('farm-select');
+const farmSelect = document.getElementById('farm-select');
 const farmImg = document.getElementById('farm-img');
 const farmChangeCounter = document.getElementById('farm-change-counter');
 
