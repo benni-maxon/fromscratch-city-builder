@@ -49,3 +49,11 @@
     -   favorites
 -   Events
     -   okButton.addEventListener('click')
+
+Stretch Goals (Slice 5)
+Add default img and complete farms
+change text font
+change input and button
+add music
+add transitions
+other adv styling (borders)
