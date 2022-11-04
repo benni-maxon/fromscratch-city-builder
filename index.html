@@ -1,39 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <!-- <img class="logo" src="" alt="logo"/> -->
+            <h1>Farm</h1>
+        </header>
 
-</head>
-
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-</body>
-
+        <main>
+            <section id="categories">
+                <div id="farm-div">
+                    <label class="category-label">
+                        Farm
+                        <select id="farm-select">
+                            <option value="standard">Standard</option>
+                            <option value="riverland">Riverland</option>
+                            <option value="forest">Forest</option>
+                            <option value="beach">Beach</option>
+                        </select>
+                    </label>
+                    <img id="farm-img" src="./assets/farm-standard.png" />
+                    <p id="farm-change-counter"></p>
+                </div>
+                <div id="profession-div">
+                    <label class="category-label">
+                        Profession
+                        <select id="profession-select">
+                            <option value="farming">Farming</option>
+                            <option value="fishing">Fishing</option>
+                            <option value="mining">Mining</option>
+                            <option value="combat">Combat</option>
+                        </select>
+                    </label>
+                    <img id="profession-img" src="./assets/profession-farming.gif" />
+                    <p id="profession-change-counter"></p>
+                </div>
+                <div id="romance-div">
+                    <label class="category-label">
+                        Romance
+                        <select id="romance-select" src="./assets/profession-farming.gif">
+                            <option value="abigail">Abigail</option>
+                            <option value="alex">Alex</option>
+                            <option value="emily">Emily</option>
+                            <option value="sebastian">Sebastian</option>
+                        </select>
+                    </label>
+                    <img id="romance-img" src="assets/romance-abigail.png" />
+                    <p id="romance-change-counter"></p>
+                </div>
+            </section>
+            <section id="favorite-section">
+                <label id="favorite-label">
+                    Favorite Thing(s):
+                    <input id="favorite-input" />
+                    <button id="ok-button">OK</button>
+                </label>
+                <div id="favorite-list">ConcernedApe</div>
+            </section>
+        </main>
+    </body>
 </html>
+<footer></footer>
